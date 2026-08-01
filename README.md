@@ -149,3 +149,7 @@ v29 update:
 - Fixed the Farsi trusted-companies logo area so the rolling client logos remain visible.
 - Replaced the EX catalog split-page display with the supplied one-page PDF catalog rendered as a single image.
 - Removed the English/Farsi legacy-catalog explanatory note above the EX catalog.
+
+
+## v31 update
+- Removed all visible Gregorian and Shamsi project date badges from the Projects page while preserving the project order, text, slideshows, and bilingual English/Farsi structure.

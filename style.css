@@ -1120,3 +1120,15 @@ body.lang-fa .logo-track{
   justify-content:center;
   margin-top:24px;
 }
+
+
+/* v31: project dates removed at client request; keep project text and image frames aligned */
+.projects .project{
+  grid-template-columns:minmax(0,1fr) 230px;
+}
+body[dir=rtl] .projects .project{
+  grid-template-columns:230px minmax(0,1fr);
+}
+@media(max-width:900px){
+  .projects .project, body[dir=rtl] .projects .project{grid-template-columns:1fr;}
+}
